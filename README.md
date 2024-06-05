@@ -1,26 +1,10 @@
-# Richonguzman / CA2RXU LoRa APRS iGate/Digirepeater
+# CA2RXU LoRa APRS iGate/Digirepeater
 
 This firmware is for using ESP32 based boards with LoRa Modules and GPS to live in the APRS world.
-
-![Screenshot](https://github.com/richonguzman/LoRa_APRS_iGate/blob/main/images/iGateOledScreen.jpeg)
-
-__(NOTE: This iGate Firmware was develop to work with all LoRa APRS Trackers and specially with this firmware <a href="https://github.com/richonguzman/LoRa_APRS_Tracker" target="_blank">LoRa APRS Tracker</a>)__
-
-___________________________________________________
+____________________________________________
 
 ## You can support this project to continue to grow:
-
-[<img src="https://github.com/richonguzman/LoRa_APRS_Tracker/blob/main/images/github-sponsors.png">](https://github.com/sponsors/richonguzman)     [<img src="https://github.com/richonguzman/LoRa_APRS_Tracker/blob/main/images/paypalme.png">](http://paypal.me/richonguzman)
-
-____________________________________________________
-
-# WEB INSTALLER
-
-As easy as it gets, the new <a href="https://sq2cpa.github.io/lora-flasher/ca2rxu.html" target="_blank">Web Installer</a> (thanks Damian SQ2CPA)
-
-[<img src="https://github.com/richonguzman/LoRa_APRS_iGate/blob/main/images/WebFlasher.png">](https://sq2cpa.github.io/lora-flasher/ca2rxu.html)
-
-____________________________________________________
+___________________________________________
 
 # SUPPORTED BOARDS
 
@@ -35,17 +19,6 @@ ____________________________________________________
 - ESP32 + 4G/LTE A7670 Modem + SX1278 DIY Version.
 
 - Wemos Lolin32 Oled + SX1278 DIY Version.
-
-
-### Buying links --> <a href="https://github.com/richonguzman/LoRa_APRS_iGate/wiki/Z.-------Supported-Boards-and-Buying-Links" target="_blank">here</a>.
-
-____________________________________________________
-
-# WIKI
-
-### Installation Guide --> <a href="https://github.com/richonguzman/LoRa_APRS_iGate/wiki/01.-Installation-Guide" target="_blank">here</a>.
-
-*(Wiki has all configuration explanation, supported boards list, adding BME/BMP Wx modules and more)*
 
 ____________________________________________________
 ## Timeline (Versions):
