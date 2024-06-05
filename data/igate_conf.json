@@ -8,8 +8,8 @@
             }]
     },
     "beacon": {
-        "latitude": 9.913452,
-        "longitude": -84.087588,
+        "latitude": 9.85483,
+        "longitude": -83.90707,
         "comment": "LoRa APRS",
         "interval": 15,
         "overlay": "L",
