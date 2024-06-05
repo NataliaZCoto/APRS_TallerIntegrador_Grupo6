@@ -1,25 +1,25 @@
 {
-    "callsign": "TI3WTI6-10",
+    "callsign": "TiTEC6-10",
     "wifi": {
-        "autoAP": {
-            "password": "Ti0TEC625788",
-            "powerOff": 10
-        },
-        "AP": []
+        "active": true,
+        "AP": [{
+            "ssid":"PROYECTO",
+            "password":"12345678"
+            }]
     },
     "beacon": {
-        "latitude": 10.02434,
-        "longitude": -84.13006,
-        "comment": "Barva Estation",
+        "latitude": 9.913452,
+        "longitude": -84.087588,
+        "comment": "LoRa APRS",
         "interval": 15,
         "overlay": "L",
         "symbol": "a",
         "path": "WIDE1-1",
-        "sendViaAPRSIS": false,
-        "sendViaRF": true
+        "sendViaAPRSIS": true,
+        "sendViaRF": false
     },
     "digi": {
-        "mode": 0
+        "mode": 2
     },
     "tnc": {
         "enableServer": false,
@@ -28,11 +28,12 @@
     },
     "aprs_is": {
         "active": true,
-        "passcode": "Ti0TEC625788",
-        "server": "noam.aprs2.net",
+        "passcode": "12504",
+        "server": "rotate.aprs2.net",
         "port": 14580,
         "filter": "m/10",
-        "toRF": true
+        "messagesToRF": false,
+        "objectsToRF": false
     },
     "lora": {
         "txFreq": 433775000,
@@ -41,7 +42,7 @@
         "signalBandwidth": 125000,
         "codingRate4": 5,
         "power": 20,
-        "txActive": true,
+        "txActive": false,
         "rxActive": true
     },
     "display": {
@@ -55,7 +56,7 @@
         "port": 514
     },
     "bme": {
-		"active": true,
+		"active": false,
 		"heightCorrection": 0,
 		"temperatureCorrection": 0.0
 	},
@@ -65,10 +66,10 @@
     },
     "other": {
         "rememberStationTime": 30,
-        "sendBatteryVoltage": true,
-        "externalVoltageMeasurement": false,
-        "externalVoltagePin": 34,
         "lowPowerMode": false,
-        "lowVoltageCutOff": 0
+        "lowVoltageCutOff": 0,
+        "backupDigiMode": false,
+        "rebootMode": false,
+        "rebootModeTime": 6
     }
 }
